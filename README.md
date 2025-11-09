@@ -1,3 +1,11 @@
+# Mental Health models
+
+The models in this repository are fine-tuned large language models and classifiers designed for emotional support and risk detection in Hebrew.
+They are trained on anonymized chat data from Sahar to identify signs of distress, suicidality, and emotional states in real conversations.  
+Together, they provide a foundation for research on safe, empathetic, and culturally adapted AI mental health support systems.
+
+--- 
+
 This repository contains two complementary components:  
 
 1. **Classifiers** – Supervised models for detecting suicidality and subject prediction tasks using volunteer-anonymized mental health chat data.  
@@ -166,6 +174,7 @@ After fine-tuning, you can run both **classifier** and **generative** models for
 - Use the fine-tuned Gemma-3 model with `.generate()`.  
 - The model produces an **empathetic, counselor-style response in Hebrew**.  
 - You can adjust generation parameters (`max_new_tokens`, `temperature`, `top_p`, `top_k`) for response length and creativity.  
+
 
 
 
